@@ -1,0 +1,379 @@
+{
+  "title": "France Pay",
+
+  "slider": [
+    {
+      "heading": "Think Digital payment ",
+      "heading2": "Think France Pay",
+      "subheading": "The future of digital payment",
+      "link": "/",
+      "image": "/Assets/banner1.jpeg"
+    },
+    {
+      "heading": "Pay in just 3 easy steps",
+      "subheading": "Scan, Enter and pay",
+      "link": "/",
+      "image": "/Assets/banner2.png"
+    },
+    {
+      "heading": "Immediate  Secure  Fast",
+      "subheading": "Manage all your payment with us",
+      "link": "/",
+      "image": "/Assets/banner3.png"
+    }
+  ],
+  "services-Title": "Our Services",
+  "services": [
+    {
+      "heading": "Static QR ",
+      "subheading": "Receive all payment at one QR with no waiting time for clients",
+      "link": "/",
+      "image": "/Assets/services1.png"
+    },
+    {
+      "heading": "Dynamic QR",
+      "subheading": "Generate QR code certain amount of monet and just scan it",
+      "link": "/",
+      "image": "/Assets/services1.png"
+    },
+    {
+      "heading": "Sound box",
+      "subheading": "No need to check your phone for payment confirmation. Our sound box says .",
+      "subheading2": "“Received 50€ from Paul”",
+      "link": "/",
+      "image": "/Assets/services1.png"
+    },
+    {
+      "heading": "Sound box",
+      "subheading": "No need to check your phone for payment confirmation. Our sound box says .",
+      "link": "/",
+      "image": "/Assets/services1.png"
+    },{
+      "heading": "Hello",
+      "subheading": "No need to check your phone for payment confirmation. Our sound box says .",
+      "link": "/",
+      "image": "/Assets/services1.png"
+    }
+  ],
+  "know_more": "Know More",
+  "hightlight_section": [
+    {
+      "id": 1,
+      "title": "Pay with QR",
+      "content": "Accept payments from customers by scanning the QR barcode with the Fpay app. Payments get settled in your bank account.",
+      "image": "/Assets/highlight/transfer.png"
+    },
+    {
+      "id": 2,
+      "title": "Payment with UPI",
+      "content": "Yes! accepting payments with Fpay is absolutely FREE! There is no setup or transaction or any other hidden charges!",
+      "image": "/Assets/highlight/pay-upi.png"
+    },
+    {
+      "id": 3,
+      "title": "Multiple bank account with one app",
+      "content": "Yes! accepting payments with Fpay is absolutely FREE! There is no setup or transaction or any other hidden charges!",
+      "image": "/Assets/highlight/pay-upi.png"
+    }
+  ],
+  "download_app": "Download the app",
+  "download": {
+    "title_blue": "Fpay",
+    "title_red": "wallet",
+    "content": "The Fastest and easiest way in France to pay In-Store, Online by simply scanning a QR code."
+  },
+  "simple_fast_secure": {
+    "tagline": "",
+    "main": "Simple, Fast",
+    "redMain": "and Secure",
+    "subheading": "Secure and reliable payment system with lery lttle hassle just for you.",
+    "image": "/Assets/highlight/pay-upi.png"
+  },
+  "list_data": [
+    {
+      "id": 1,
+      "main": "One app for all things money.",
+      "description": "Pay bills, recharge, send money "
+    },
+    {
+      "id": 2,
+      "main": "Pay whenever you like, wherever you like.",
+      "description": "Choose from options like UPI"
+    },
+    {
+      "id": 3,
+      "main": "Find your friends on FrancePay.",
+      "description": "Transfert money to your friends"
+    }
+  ],
+  "why-to-use": {
+    "heading": {
+      "main": "Why to use",
+      "redMain": "mobile payments",
+      "tagline": "",
+      "subheading": "You can make the transfer immediately and the other party can verify the payment"
+    },
+    "why-cards-data": [
+      {
+        "id": 1,
+        "description": "You can make the transfer immediately and the other party can verify the payment"
+      },
+      {
+        "id": 2,
+        "description": "Zero installation cost our technology"
+      },
+      {
+        "id": 3,
+        "description": "No need to charge again and again like card swiping machine"
+      },
+      {
+        "id": 4,
+        "description": "No extra cost of generating paper receipt"
+      },
+      {
+        "id": 5,
+        "description": "No pollution and side effect of our product"
+      },
+      {
+        "id": 6,
+        "description": "We store data in encrypted format and keep eyes continuously on hackers. You can immediately report a fraud."
+      }
+    ],
+    "List": [
+      {
+        "id": 1,
+        "icon": "HeartIcon",
+        "description": "You can make the transfer immediately and the other party can verify the payment",
+        "linkin_src": "https://www.linkedin.com/in/praveen-soni-0abb10161/"
+      },
+      {
+        "id": 2,
+        "icon": "TrendingUpIcon",
+        "position": "Technical expert",
+        "description": "Zeo installation cost our technology",
+        "linkin_src": "https://www.linkedin.com/in/jad-hariri-5b2961176/"
+      },
+      {
+        "id": 3,
+        "icon": "LightBulbIcon",
+        "position": "CMO",
+        "description": "No need to charge again and again like card swiping machine",
+        "linkin_src": "https://www.linkedin.com/in/maximilien-sadky/"
+      },
+      {
+        "id": 4,
+        "icon": "HeartIcon",
+        "position": "CEO",
+        "description": "No extra cost of generating paper receipt",
+        "linkin_src": "https://www.linkedin.com/in/praveen-soni-0abb10161/"
+      },
+      {
+        "id": 5,
+        "icon": "TrendingUpIcon",
+        "position": "Technical expert",
+        "description": "No pollution and side effect of our product",
+        "linkin_src": "https://www.linkedin.com/in/jad-hariri-5b2961176/"
+      },
+      {
+        "id": 6,
+        "icon": "LightBulbIcon",
+        "position": "CMO",
+        "description": "We store data in encrypted format and keep eyes continuously on hackers. You can immediately report a fraud.",
+        "linkin_src": "https://www.linkedin.com/in/maximilien-sadky/"
+      }
+    ]
+  },
+  "service-two": {
+    "title": "France pay merchant",
+    "content": "receive  money from clients in few clicks"
+  },
+  "comparison-section": {
+    "heading": {
+      "main": "F-Pay vs",
+      "redMain": "Card swiping",
+      "tagline": "",
+      "subheading": "QR code technology vs Payment Card swiping machine"
+    },
+    "comparison": {
+      "f-pay": "FrancePay Payment",
+      "others": "Other Payment Gateways",
+      "comparision-data": [
+        {
+          "topic": "Transaction cost",
+          "row": 1,
+          "fpay": {
+            "id": 1,
+            "main": "Quick and secure",
+            "content": [
+              { "id": 1, "point": "250mn+ saved cards" },
+              {
+                "id": 2,
+                "point": "100mn+ saved bank accounts and 15mn UPI IDs"
+              },
+              {
+                "id": 3,
+                "point": "FrancePay's in-house banking infrastructure"
+              }
+            ]
+          },
+          "otherPayments": {
+            "id": 2,
+            "main": "Scale of saved instruments in much lower",
+            "content": [
+              {
+                "id": 1,
+                "point": "Rely on external banking partners and hence lower success rates"
+              }
+            ]
+          }
+        },
+        {
+          "topic": "Installation cost",
+          "row": 2,
+          "fpay": {
+            "id": 1,
+            "main": "Eco Friendly",
+            "content": []
+          },
+          "otherPayments": {
+            "id": 2,
+            "main": "2% and above charged on Cards, UPI, RuPay & other payments",
+            "content": []
+          }
+        },
+        {
+          "topic": "Monthly subscription ",
+          "row": 3,
+          "fpay": {
+            "id": 1,
+            "main": "Save electricity",
+            "content": [
+              {
+                "id": 1,
+                "point": "T : Date of transaction capture"
+              }
+            ]
+          },
+          "otherPayments": {
+            "id": 2,
+            "main": "T+2. No settlements on bank holidays",
+            "content": []
+          }
+        },
+        {
+          "topic": "Wastage",
+          "row": 4,
+          "fpay": {
+            "id": 1,
+            "main": "No paper receipt",
+            "content": [
+              {
+                "id": 1,
+                "point": "Huge support for transaction systems"
+              }
+            ]
+          },
+          "otherPayments": {
+            "id": 2,
+            "main": "< 1,000 TPS",
+            "content": [
+              {
+                "id": 1,
+                "point": "Less support for transaction systems"
+              }
+            ]
+          }
+        },
+        {
+          "topic": "International Payments",
+          "row": 5,
+          "fpay": {
+            "id": 1,
+            "main": "Support for 200+ countries & T+1 settlements",
+            "content": []
+          },
+          "otherPayments": {
+            "id": 2,
+            "main": "Support for 100+ countries & T+7 settlements",
+            "content": []
+          }
+        },
+        {
+          "topic": "Save Money",
+          "row": 6,
+          "fpay": {
+            "id": 1,
+            "main": "No installation cost",
+            "content": [
+              { "id": 1, "point": "Free PG" },
+              { "id": 2, "point": "Free Payouts" },
+              { "id": 3, "point": "Customer acquisition via Paytm Ads" },
+              { "id": 4, "point": "Distribution via Paytm Mini App store" },
+              {
+                "id": 5,
+                "point": "Benefits on current account and nodal account"
+              }
+            ]
+          },
+          "otherPayments": {
+            "id": 2,
+            "main": "No comprehensive solution",
+            "content": []
+          }
+        }
+      ]
+    }
+  },
+  "choose-us": {
+    "heading": {
+      "main": "Why to",
+      "redMain": "choose us",
+      "subheading": "Six powerful reasons to choose us rather than other payments gateways",
+      "tagline": ""
+    },
+    "choose-us-cards": [
+      {
+        "id": 1,
+        "title": "Instant activation",
+        "content": "Francepay offers 100% online onboarding with minimum dosumentation to help your business go online with ease."
+      },
+      {
+        "id": 2,
+        "title": "Easy Integration",
+        "content": "Use Francepay's robust API and custom SDK's to start accepting digital payments in less than 30 minutes using just a few lines of code."
+      },
+      {
+        "id": 3,
+        "title": "100+ payment sources",
+        "content": "Allow your customers to pay the way they want with support for debit and credit cards, Netbanking, UPI, F-Pay wallet & much more."
+      },
+      {
+        "id": 4,
+        "title": "Industry-best success rates",
+        "content": "With Francepay's intelligent routing & direct bank integrations, we ensure that your customers' payments go through every time."
+      },
+      {
+        "id": 5,
+        "title": "Frane's most widely-used checkout",
+        "content": "We aim to provide over 3000 business with Francepay checkout services & can give customers the checkout experince they love."
+      },
+      {
+        "id": 6,
+        "title": "Dedicated Support",
+        "content": "All online merchants and payment gateway users on Francepay will get dedicated support via a toll-free number and email."
+      }
+    ]
+  },
+  "video-slide": {
+    "tagline": "",
+    "main": "F-Pay",
+    "redMain": "Videos",
+    "subheading": "We store data in encrypted format and keep eyes continuously on hackers."
+  },
+   "testimonial": {
+    "heading": {
+      "main": "We take pride in our",
+      "redMain": "Clients Success"
+    }
+  }
+}
