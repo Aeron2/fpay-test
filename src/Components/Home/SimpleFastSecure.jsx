@@ -2,10 +2,10 @@ import Heading from "@/Components/heading/Heading";
 import Image from "next/image";
 import React from "react";
 import Data from "@/Data/Home/Home.json";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 const SimpleFastSecure = () => {
-  AOS.init();
+  // AOS.init();
 const item = Data.simple_fast_secure;
   return (
     <>
