@@ -12,6 +12,7 @@ import Image from 'next/image'
 import WhyToUse from '@/Components/Home/WhyToUse';
 import VideoSlide from '@/Components/Home/VideoSlide';
 import Testimonial from '@/Components/Home/testimonial';
+import Partners from '@/Components/Home/Partners';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Comparison />
       <VideoSlide />
       <Testimonial />
+      <Partners/>
     </main>
   )
 }

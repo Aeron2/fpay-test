@@ -51,7 +51,8 @@ const Comparison = () => {
                         <div className="flex-shrink-0 w-40 h-10">
                           <h1>
                             {/* {data.topic} */}
-                            {(`data.${index}.topic`)}
+                            {/* {(`data.${index}.topic`)} */}
+                            {data["topic"]}
                           </h1>
                         </div>
                       </div>
@@ -72,7 +73,8 @@ const Comparison = () => {
                               <CheckIcon className="w-4 h-6 mr-1 text-green-300" />
                             </span>
                             {/* {data.fpay.main} */}
-                            {(`${comparisonData}.${index}.fpay.main`)}
+                            {/* {(`${comparisonData}.${index}.fpay.main`)} */}
+                            {data.fpay["main"]}
                           </p>
                           {data.fpay.content.map((content, i) => (
                             <ul
@@ -81,9 +83,10 @@ const Comparison = () => {
                             >
                               <li>
                                 {/* {content.point} */}
-                                {(
+                                {/* {(
                                   `${comparisonData}.${index}.fpay.content.${i}.point`
-                                )}
+                                )} */}
+                                {content["point"]}
                               </li>
                             </ul>
                           ))}
@@ -106,7 +109,9 @@ const Comparison = () => {
                               <XIcon className="w-4 h-6 mr-1 text-red-500" />
                             </span>
                             {/* {data.otherPayments.main} */}
-                            {(`${comparisonData}.${index}.otherPayments.main`)}
+                            {/* {(`${comparisonData}.${index}.otherPayments.main`)} */}
+                            {data.otherPayments["main"]}
+
                           </p>
                           {data.otherPayments.content.map((content, i) => (
                             <ul
@@ -115,9 +120,10 @@ const Comparison = () => {
                             >
                               <li>
                                 {/* {content.point} */}
-                                {(
+                                {/* {(
                                   `${comparisonData}.${index}.otherPayments.${i}.point`
-                                )}
+                                )} */}
+                                {content["point"]}
                               </li>
                             </ul>
                           ))}

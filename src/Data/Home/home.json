@@ -48,7 +48,8 @@
       "subheading": "No need to check your phone for payment confirmation. Our sound box says .",
       "link": "/",
       "image": "/Assets/services1.png"
-    },{
+    },
+    {
       "heading": "Hello",
       "subheading": "No need to check your phone for payment confirmation. Our sound box says .",
       "link": "/",
@@ -370,10 +371,129 @@
     "redMain": "Videos",
     "subheading": "We store data in encrypted format and keep eyes continuously on hackers."
   },
-   "testimonial": {
+  "testimonial": {
     "heading": {
       "main": "We take pride in our",
       "redMain": "Clients Success"
+    }
+  },
+  "partners": {
+    "heading": {
+      "main": "Our",
+      "redMain": "Partners",
+      "subheading": "We store data in encrypted format and keep eyes continuously on hackers.",
+      "tagline": ""
+    },
+    "partner-types": [
+      { "id": 1, "name": "Bank" },
+      { "id": 2, "name": "Incubation" },
+      { "id": 3, "name": "Investors" },
+      { "id": 4, "name": "Service" }
+    ],
+    "img":{
+      "Bank": [
+        {
+          "id": 1,
+          "title": "Does drinking coffee make you smarter?",
+          "image": "/Assets/Partners/bank/Banque.jpeg"
+        },
+        {
+          "id": 2,
+          "title": "So you've bought coffee... now what?",
+          "image": "/Assets/Partners/bank/bb.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Does drinking coffee make you smarter?",
+          "image": "/Assets/Partners/bank/BNP.jpeg"
+        },
+        {
+          "id": 4,
+          "title": "So you've bought coffee... now what?",
+          "image": "/Assets/Partners/bank/sia.png"
+        },
+        {
+          "id": 5,
+          "title": "So you've bought coffee... now what?",
+          "image": "/Assets/Partners/bank/nickel.png"
+        },
+        {
+          "id": 6,
+          "title": "So you've bought coffee... now what?",
+          "image": "/Assets/Partners/bank/hsbc.png"
+        }
+      ],
+      "Incubation": [
+        {
+          "id": 1,
+          "title": "Is tech making coffee better or worse?",
+          "image": "/Assets/Partners/Incubation/Bpifrance.png"
+        },
+        {
+          "id": 2,
+          "title": "The most innovative things happening in coffee",
+          "image": "/Assets/Partners/Incubation/cci.png"
+        },
+        {
+          "id": 3,
+          "title": "Is tech making coffee better or worse?",
+          "image": "/Assets/Partners/Incubation/jeune.png"
+        },
+        {
+          "id": 4,
+          "title": "The most innovative things happening in coffee",
+          "image": "/Assets/Partners/Incubation/pepite.png"
+        },
+        {
+          "id": 5,
+          "title": "The most innovative things happening in coffee",
+          "image": "/Assets/Partners/Incubation/PepiteCVL.png"
+        },
+        {
+          "id": 6,
+          "title": "The most innovative things happening in coffee",
+          "image": "/Assets/Partners/Incubation/station.png"
+        }
+      ],
+      "Investors": [
+        {
+          "id": 1,
+          "title": "Ask Me Anything: 10 answers to your questions about coffee",
+          "image": "/Assets/Partners/Investors/aquiti.png"
+        },
+        {
+          "id": 2,
+          "title": "The worst advice we've ever heard about coffee",
+          "image": "/Assets/Partners/Investors/businessAngels.png"
+        },
+        {
+          "id": 3,
+          "title": "Ask Me Anything: 10 answers to your questions about coffee",
+          "image": "/Assets/Partners/Investors/gVenture.png"
+        },
+        {
+          "id": 4,
+          "title": "Ask Me Anything: 10 answers to your questions about coffee",
+          "image": "/Assets/Partners/Investors/kima.png"
+        }
+      ],
+      "Service": [
+        {
+          "id": 1,
+          "title": "Ask Me Anything: 10 answers to your questions about coffee",
+          "image": "/Assets/Partners/Service/engie.png"
+        },
+        {
+          "id": 2,
+          "title": "The worst advice we've ever heard about coffee",
+          "image": "/Assets/Partners/Service/ratp.png"
+        },
+        {
+          "id": 3,
+          "title": "Ask Me Anything: 10 answers to your questions about coffee",
+          "image": "/Assets/Partners/Service/sncf.jpeg"
+        }
+      ]
     }
   }
 }
