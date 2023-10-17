@@ -5,12 +5,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Data from "@/Data/Home/Home.json";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Banner() {
+  AOS.init();
   const router = useRouter();
   return (
     <>
-      <div className="relative">
+      <div className="relative" data-aos="zoom-in-up">
         <Carousel
           autoPlay
           infiniteLoop

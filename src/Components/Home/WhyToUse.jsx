@@ -3,12 +3,21 @@ import Heading from "../heading/Heading";
 
 import React from "react";
 import Data from "@/Data/Home/Home.json";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const WhyToUse = () => {
+   useEffect(() => {
+     AOS.init({
+       duration: 1000,
+       once: true,
+       offset: 50,
+     });
+   }, []);
   const item = Data["why-to-use"];
   const List = item.List;
   return (
-    <>
+    <div data-aos="fade-up">
       <div className="text-center mt-20">
         <Heading
           main={item.heading.main}
@@ -51,7 +60,7 @@ const WhyToUse = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,8 +1,8 @@
 import React from "react";
 import Data from "@/Data/Home/Home.json";
 import Image from "next/image";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 // import { data } from 'autoprefixer';
 // arrow - long - right;
@@ -11,23 +11,21 @@ function Services() {
   // console.log(
   //   Data.services[0].image
   // )
-  // useEffect(() => {
-  //    AOS.init({
-  //      duration: 1000,
-  //      once: true,
-  //      offset: 50,
-  //    });
-  //  }, []);
+  useEffect(() => {
+     AOS.init({
+       duration: 1000,
+       once: true,
+       offset: 50,
+     });
+   }, []);
   return (
-    <div className="container mx-auto mt-32 "
-      // data-aos="fade-up"
-    >
+    <div className="container mx-auto mt-32 " data-aos="fade-up">
       <div className="hel text-slate-600 text-4xl font-bold ">
         Our <span className="text-pred italic"> &nbsp;Services</span>
       </div>
       <div className="flex flex-wrap   justify-around gap-y-12 mt-16">
         {Data.services.map((item, index) => (
-          <div key={index}>
+          <div key={index} data-aos="fade-up">
             <Cards item={item} />
           </div>
         ))}

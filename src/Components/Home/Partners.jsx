@@ -4,7 +4,8 @@ import Heading from "../heading/Heading";
 import Image from "next/image";
 // import { partners } from "../../contents/partners";
 import Data from "@/Data/Home/home.json";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -14,7 +15,7 @@ const Partners = () => {
   const partners = item.img;
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center" data-aos="fade-up">
       <div className="w-full md:max-w-7xl  md:px-8 py-16 sm:px-0">
         <div className="flex justify-center">
           <Heading

@@ -1,8 +1,11 @@
 import Carousel from "react-elastic-carousel";
-import React from "react";
+import React,{useEffect} from "react";
 import Image from "next/image";
 import { testimonial } from "@/Data/Home/testimonial.js";
 import Data from "@/Data/Home/home.json"
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 1 },
@@ -11,9 +14,15 @@ const breakPoints = [
 ];
 
 const Testimonial = () => {
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 50,
+    });
+  }, []);
   return (
-    <div className="mt-10 md:mt-18 px-4">
+    <div className="mt-10 md:mt-18 px-4" data-aos="fade-up">
       <div className="flex justify-center px-4">
         <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
           {Data.testimonial.heading.main}

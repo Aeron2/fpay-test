@@ -2,21 +2,21 @@ import Image from "next/image";
 import React,{useEffect} from "react";
 import styles from "@/styles/highlight.module.css";
 import Data from "@/Data/Home/Home.json";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Highlight = () => {
-// useEffect(() => {
-//   AOS.init({
-//     duration: 1000,
-//     once: true,
-//     offset: 50,
-//   });
-// }, []);
+useEffect(() => {
+  AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 50,
+  });
+}, []);
     const item = Data.hightlight_section;
     return (
       <div className="gap-y-4 mt-32 max-w-7xl mx-auto">
         <div className={styles.gridflex}
-          // data-aos="fade-up"
+           data-aos="fade-up"
         >
           <div
             className={`${styles.col} ${styles.colimage} flex justify-center aspect-auto w-full `}
@@ -39,7 +39,7 @@ const Highlight = () => {
           </div>
         </div>
         <div className={styles.gridflex}
-          // data-aos="fade-up"
+           data-aos="fade-up"
         >
           <div
             className={`${styles.col} ${styles.colimage} flex justify-center`}
@@ -63,7 +63,7 @@ const Highlight = () => {
           </div>
         </div>
         <div className={styles.gridflex}
-          // data-aos="fade-up"
+           data-aos="fade-up"
         >
           <div
             className={`${styles.col} ${styles.colimage} flex justify-center aspect-auto w-full `}

@@ -2,18 +2,24 @@ import { faApple, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import React from "react";
+import React,{useEffect} from "react";
 import Data from "@/Data/Home/Home.json";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Download = () => {
-  // AOS.init();
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 50,
+    });
+  }, []);
   const item = Data.download;
   return (
     <div
       className="relative md:flex justify-center items-center bg-white overflow-hidden py-8 mt-32 max-w-7xl mx-auto"
-      // data-aos="fade-up"
+      data-aos="fade-up"
     >
       <div className="">
         <div className="relative pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">

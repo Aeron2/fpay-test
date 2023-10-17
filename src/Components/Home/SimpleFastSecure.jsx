@@ -1,14 +1,21 @@
 import Heading from "@/Components/heading/Heading";
 import Image from "next/image";
-import React from "react";
+import React,
+{useEffect} from "react";
 import Data from "@/Data/Home/Home.json";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const SimpleFastSecure = () => {
-  // AOS.init();
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 50,
+    });
+  }, []);
 const item = Data.simple_fast_secure;
   return (
-    <>
+    <div data-aos="fade-up">
       <div className="text-center mt-20">
         <Heading
           main={item.main}
@@ -53,7 +60,7 @@ const item = Data.simple_fast_secure;
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

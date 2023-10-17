@@ -1,17 +1,24 @@
 import { CheckIcon, XIcon } from "@heroicons/react/solid";
 import Data from "@/Data/Home/Home.json";
 import Heading from "../heading/Heading";
-import React from "react";
-
+import React,{useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Comparison = () => {
   const item = Data["comparison-section"];
   // const comparisonData = "Data.comparison-section.comparison.comparision-data";
   const comparisonData =
     item.comparison["comparision-data"];
   // console.log(comparisonData)
-
+useEffect(() => {
+  AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 50,
+  });
+}, []);
   return (
-    <div className="mt-6 py-10 container mx-auto px-4 sm:px-8 bg-gradient-to-t md:rounded-3xl">
+    <div className="mt-6 py-10 container mx-auto px-4 sm:px-8 bg-gradient-to-t md:rounded-3xl" data-aos="fade-up">
       <div className="py-4">
         <div className="flex justify-center">
           <Heading

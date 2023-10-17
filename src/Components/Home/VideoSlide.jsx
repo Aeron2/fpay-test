@@ -1,15 +1,22 @@
 import Heading from "../heading/Heading";
 import Image from "next/image";
 import { PlayIcon } from "@heroicons/react/outline";
-import React from "react";
+import React,{useEffect} from "react";
 import Data from "@/Data/Home/Home.json";
 // import useTranslation from "next-translate/useTranslation";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const VideoSlide = () => {
   // const { t } = useTranslation("home");
-
+ useEffect(() => {
+   AOS.init({
+     duration: 1000,
+     once: true,
+     offset: 50,
+   });
+ }, []);
   return (
-    <>
+    <div data-aos="fade-up">
       <Heading
         main={Data["video-slide"].main}
         redMain={Data["video-slide"].redMain}
@@ -103,7 +110,7 @@ const VideoSlide = () => {
           </div>
         </a>
       </div>
-    </>
+    </div>
   );
 };
 
