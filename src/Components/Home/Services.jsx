@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "@/Data/Home/Home.json";
+import Data from "@/Data/Home/home.json";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";

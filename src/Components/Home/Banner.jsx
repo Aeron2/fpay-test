@@ -1,14 +1,16 @@
-'use client'
-import React from "react";
+"use client";
+import React,{useEffect} from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Data from "@/Data/Home/Home.json";
+import Data from "@/Data/Home/home.json";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function Banner() {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const router = useRouter();
   return (
     <>
@@ -38,7 +40,7 @@ function Banner() {
 
 export default Banner;
 
-function ImageWithText({ item,router }) {
+function ImageWithText({ item, router }) {
   // const router = useRouter();
   return (
     <div className="relative ">
@@ -61,7 +63,6 @@ function ImageWithText({ item,router }) {
     </div>
   );
 }
-
 
 const Plane = () => {
   return (

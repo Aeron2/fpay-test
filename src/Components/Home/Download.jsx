@@ -3,7 +3,7 @@ import { faApple, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React,{useEffect} from "react";
-import Data from "@/Data/Home/Home.json";
+import Data from "@/Data/Home/home.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

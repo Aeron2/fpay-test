@@ -69,8 +69,8 @@ function Navbar() {
           </Link>
         </div>
         <div className="hel">
-          {/* <div id="google_translate_element"></div> */}
-          Translate
+          <div id="google_translate_element"></div>
+          {/* Translate */}
         </div>
       </div>
     </>

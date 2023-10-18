@@ -2,7 +2,7 @@ import Heading from "@/Components/heading/Heading";
 import Image from "next/image";
 import React,
 {useEffect} from "react";
-import Data from "@/Data/Home/Home.json";
+import Data from "@/Data/Home/home.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const SimpleFastSecure = () => {

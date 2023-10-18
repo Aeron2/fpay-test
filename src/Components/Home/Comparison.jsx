@@ -1,5 +1,5 @@
 import { CheckIcon, XIcon } from "@heroicons/react/solid";
-import Data from "@/Data/Home/Home.json";
+import Data from "@/Data/Home/home.json";
 import Heading from "../heading/Heading";
 import React,{useEffect} from "react";
 import AOS from "aos";

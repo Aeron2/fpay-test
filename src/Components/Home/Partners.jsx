@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Tab } from "@headlessui/react";
 import Heading from "../heading/Heading";
 import Image from "next/image";
@@ -13,7 +13,13 @@ function classNames(...classes) {
 const Partners = () => {
   const item = Data.partners;
   const partners = item.img;
-
+ useEffect(() => {
+   AOS.init({
+     duration: 1000,
+     once: true,
+     offset: 50,
+   });
+ }, []);
   return (
     <div className="flex justify-center" data-aos="fade-up">
       <div className="w-full md:max-w-7xl  md:px-8 py-16 sm:px-0">
