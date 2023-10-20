@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
@@ -55,7 +56,7 @@ function Navbar() {
           <Link className="nav-link" href="/">
             Solution
           </Link>
-          <Link className="nav-link" href="/">
+          <Link className="nav-link" href="/plan-for-merchant">
             Plan for Merchants
           </Link>
           <Link className="nav-link" href="/">
@@ -69,8 +70,8 @@ function Navbar() {
           </Link>
         </div>
         <div className="hel">
-          <div id="google_translate_element"></div>
-          {/* Translate */}
+          {/* <div id="google_translate_element"></div> */}
+          Translate
         </div>
       </div>
     </>

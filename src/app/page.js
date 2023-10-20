@@ -17,7 +17,6 @@ import Partners from '@/Components/Home/Partners';
 export default function Home() {
   return (
     <main className="">
-    <Navbar/>
       <Banner />
       <Services />
       <Highlight />

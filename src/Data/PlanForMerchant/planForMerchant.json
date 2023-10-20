@@ -1,0 +1,153 @@
+{
+  "title": "Plans for merchants",
+  "header": "Just cash in.",
+  "subheader": "Everywhere all the time.",
+  "head-button": "MAKE AN APPOITMENT HERE",
+  "head-photo": "/Assets/plans-for-merchants/header.jpg",
+  "pricing": {
+    "main": "Our",
+    "redMain": "Pricing",
+    "tagline": "Our pricing plans",
+    "subheading": "Get the power of customization you need to manage your transactions, payments and business",
+
+    "tab-items": [
+      {
+        "id": 1,
+        "name": "Online Payment"
+      },
+      {
+        "id": 2,
+        "name": "Instore Payment"
+      }
+    ],
+    "pricing-details": [
+      {
+        "title": "Payment Instrument",
+        "first": "UPI - Standard",
+        "second": "UPI - Subscription",
+        "third": "FPay Wallet",
+        "fourth": "Credit Card",
+        "fifth": "Debit Card",
+        "sixth": "Netbanking"
+      },
+      {
+        "title": "Small Medium Business",
+        "first": "0%",
+        "second": "₹5- 65 per mandate for annual subscription plan",
+        "third": "1.99%",
+        "fourth": "1.99%",
+        "fifth": "0%",
+        "sixth": "1.99%"
+      }
+    ],
+    "yearly-billing": [
+      {
+        "title": "F-Pay Wallet",
+        "first": "UPI - Payment",
+        "second": "UPI - Subscription",
+        "third": "Debit Card"
+      },
+      {
+        "title": "Merchant Discount Rate",
+        "first": "0%",
+        "second": "0%",
+        "third": "0%"
+      }
+    ],
+    "enterprise": "Enterprise",
+    "content": "We understand scale. Get in touch for a custom pricing plan designed for your business requirement."
+  },
+
+  "Favorites": {
+    "heading": {
+      "main": "Why we are favorite to ",
+      "redMain": "merchants",
+      "tagline": "Solutions",
+      "subheading": "France Pay provides cross-border payment solutions in one single platform and services that meets industries trends for international online B2C and B2B business models"
+    },
+    "favorite-cards": [
+      {
+        "id": 1,
+        "title": "Less transaction charges",
+        "imageUrl": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+        "preview": "We guarantee you that we have less transaction charges that the other well known payment solutions such as paypal, google pay, visa payments or Lydia."
+      },
+      {
+        "id": 2,
+        "title": "Zero installation cost",
+        "href": "#",
+        "imageUrl": "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+        "preview": "There is no hassle in installation because there are none, you can immediately start using our service without any extra cost."
+      },
+      {
+        "id": 3,
+        "title": "Fast and secure",
+        "href": "#",
+        "imageUrl": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
+        "preview": "Thanks to our new technology based on QR Codes, your payment  is 100% safe and secure, it comes without saying that the payment is done instantly."
+      },
+      {
+        "id": 4,
+        "title": "Easy settlements to your bank account",
+        "href": "#",
+        "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "preview": "There are very few settlements to understand  before using our solution, and we offer a large payment service that will surely satisfy your needs."
+      },
+      {
+        "id": 5,
+        "title": "Quick refunds",
+        "href": "#",
+        "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "preview": "You made a payment by mistake? or you simply want a refund? No worries, we guarantee you quick refunds without asking you for any justification."
+      },
+      {
+        "id": 6,
+        "title": "No waiting time",
+        "href": "#",
+        "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "preview": "Multiple payments at same time, no queue for clients."
+      }
+    ]
+  },
+  "business-dashboard": {
+    "heading": "Business dashboard and analytics",
+    "content": "Our solution comes along with a dashboard and analytics to help you view and regulate your sales and have a better forecast of your future costs and needs.",
+    "get-started": "Get started",
+    "img-link": "Assets/solutions/business-dashboard.jpg"
+  },
+  "manage-payments": {
+    "heading": "Manage your payments and transactions",
+    "content": [
+      {
+        "title": "Boost your cash",
+        "content": "Your cash receipts are transferred directly to your bank account on D + 1 working day."
+      },
+      {
+        "title": "Follow your activity in real time",
+        "content": "Find your collection history in the application, by date, by context and by means of payment. Benefit from a global interface integrating complete reporting tools"
+      }
+    ]
+  },
+  "offers":{
+    "heading": {
+      "main": "Our offers",
+      "tagline": "Offers",
+      "subheading": "No service charges, no commitment, no fixed cost."
+    },
+    "comparisons": [
+      {
+        "title": "Merchants - Direct sales",
+        "mobile": "Mobile payment acceptance / credit card : 1.60% *",
+        "tick-1": "✔ Unlimited and free access to the reporting functions of the Lyf Back Office.",
+        "tick-2": " ✔ Unlimited and free access to the functions Commercial animation of the Lyf Back Office."
+      },
+      {
+        "title": "Liberal professions",
+        "mobile": "Mobile payment acceptance / credit card : 1% *",
+        "tick-1": " ✔ Unlimited and free access to the reporting functions of the Lyf Back Office."
+      }
+    ],
+    "mention": "All the prices mentioned are exclusive of VAT. VAT applicable at 20%."
+  }
+
+}

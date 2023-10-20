@@ -1,14 +1,15 @@
-import './globals.css'
+import Navbar from "@/Components/Home/Navbar";
+import "./globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Inter } from 'next/font/google'
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Fpay',
-  description: 'France Pay',
-}
+  title: "Fpay",
+  description: "France Pay",
+};
 
 export default function RootLayout({ children }) {
   // AOS.init({});
@@ -19,7 +20,10 @@ export default function RootLayout({ children }) {
   //  }, []);
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
-  )
+  );
 }

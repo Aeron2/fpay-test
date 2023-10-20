@@ -1,0 +1,9 @@
+.headerStyle {
+  background-image: linear-gradient(
+    135deg,
+    #231437 0%,
+    #2c385e 50%,
+    #336e6b 100%
+  );
+  min-height: 760px;
+}
