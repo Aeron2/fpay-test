@@ -14,6 +14,8 @@ function Navbar() {
     });
   }, []);
 
+  /*
+
   const googleTranslateElementInit = () => {
     new window.google.translate.TranslateElement(
       {
@@ -32,7 +34,7 @@ function Navbar() {
     );
     document.body.appendChild(addScript);
     window.googleTranslateElementInit = googleTranslateElementInit;
-  }, []);
+  }, []);*/
 
   return (
     // <>
