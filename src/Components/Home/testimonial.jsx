@@ -1,4 +1,4 @@
-import Carousel from "react-elastic-carousel";
+// import Carousel from "react-elastic-carousel";
 import React,{useEffect} from "react";
 import Image from "next/image";
 import { testimonial } from "@/Data/Home/testimonial.js";
@@ -30,7 +30,7 @@ const Testimonial = () => {
           <span className="text-red-500">{Data.testimonial.heading.redMain}</span>
         </h2>
       </div>
-      <Carousel showArrows={false} breakPoints={breakPoints}>
+      {/* <Carousel showArrows={false} breakPoints={breakPoints}>
         {testimonial.map((content) => (
           <div
             className="mb-8 border max-w-2xl mx-2 sm:max-w-4xl md:max-w-lg lg:max-w-sm xl:max-full sm:mx-auto md:mx-4 lg:mx-2 xl:mx-2 mt-12  md:mt-24 lg:mt-32 bg-white  rounded-[2rem] text-gray-900"
@@ -57,7 +57,7 @@ const Testimonial = () => {
             </div>
           </div>
         ))}
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 };

@@ -25,7 +25,7 @@ export default function Home() {
       <WhyToUse />
       <Comparison />
       <VideoSlide />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Partners/>
     </main>
   )
