@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
@@ -43,7 +43,7 @@ function Navbar() {
         className="flex flex-row justify-around   py-2 shadow-2xl z-50 sticky top-0 bg-white rounded-b-md  "
         data-aos="fade-down"
       >
-        <div className="hel">
+        <Link className="hel" href="/">
           <Image
             // src={"/Assets/logo/logo-only.png"}
             src={"/Assets/logo/FrancePay-head.png"}
@@ -51,9 +51,9 @@ function Navbar() {
             height={200}
             alt=""
           />
-        </div>
+        </Link>
         <div className="hel space-x-8">
-          <Link className="nav-link" href="/">
+          <Link className="nav-link" href="/solutions">
             Solution
           </Link>
           <Link className="nav-link" href="/plan-for-merchant">

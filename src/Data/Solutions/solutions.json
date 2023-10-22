@@ -1,0 +1,164 @@
+{
+  "title": "Solutions",
+  "header-section": {
+    "title": "Our Complete Suite of Products",
+    "content": "We provide a wide variety of services and products to our customers"
+  },
+  "cards": {
+    "accept-payments": {
+      "title": "Accept Payments",
+      "type-1": [
+        "For Merchants",
+        "Static QR",
+        "Dynamic QR",
+        "Link",
+        "Request",
+        "Scanner"
+      ],
+      "type-2": ["For Users", "By QR Code", "By F-pay Id", "", ""]
+    },
+    "manage-business": {
+      "title": "Manage Your Business",
+      "type-1": [
+        "Business dashboard",
+        "Transaction report and statics",
+        "Settle the amount to bank account"
+      ],
+      "type-2": ["Business App", "Manage Staff"]
+    },
+    "personal-use": {
+      "title": "F-Pay wallet for personal use",
+      "type-1": [
+        "Send money to friends",
+        "Ask for a friend",
+        "Cashback and discounts Offers"
+      ],
+      "type-2": ["Get referal bonus"]
+    }
+  },
+
+  "benchmark": {
+    "title": "The benchmark for payments between ",
+    "redMain": "friends and retailers",
+    "content": "Fpay has made payments and reimbursements very easy and fast",
+    "tab-1": "Pay to a retailer using F-pay",
+    "tab-2": "Checkout with just a Single Click",
+    "tab-3": "Accepting payments with Fpay is absolutely FREE"
+  },
+
+  "qr-payment": {
+    "main": "Payment at store with",
+    "redMain": "QR code",
+    "tagline": "",
+    "subheading": "Scan QR codes and make transactions easily.",
+    "expand-menu": [
+      {
+        "id": 1,
+        "main": "Static QR for all payments",
+        "description": "Static QR codes are used for facilitating quick and simple payments in various industries like delivery service, in-home services, in-store retails, taxi drivers, and street vendors."
+      },
+      {
+        "id": 2,
+        "main": "Dynamic QR",
+        "description": "France-Pay Dynamic QR offers a solution where the merchant can control the amount to be paid by the client"
+      },
+      {
+        "id": 3,
+        "main": "Using F-Pay ID",
+        "description": "Merchants can request the amount to the clients using client's F-Pay ID"
+      }
+    ]
+  },
+
+  "benefits-staticQR": {
+    "main": "Benefits of using",
+    "redMain": "Static QR code",
+    "benefits": [
+      {
+        "title": "Instant payments",
+        "description": "One of the biggest advantages of using QR codes is that it facilitates instant payment. Making payment via QR codes is extremely quick as compared to other modes of payment",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg"
+      },
+      {
+        "title": "Top-grade security",
+        "description": "Making payments via QR codes is very secure. It’s because the QR code is nothing but just a tool that is used to exchange information. Any data which is transferred via QR codes is encrypted with SHA-2 algorithm thus making the payment fullproof secure",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-chat-light.svg"
+      },
+      {
+        "title": "Easy to set up",
+        "description": "Setting up QR code payments is extremely easy. You don’t need much infrastructure. You only require a smartphone with a camera and a QR code which is either printed or in the electronic form. The usage of QR code replace other payment terminals",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-fast-checkout-light.svg"
+      },
+      {
+        "title": "Higher reliability",
+        "description": "QR code payments are a fullproof payment method as it eliminates the probability of any kind of error. It increase reliability because of immediate generation of payment receipt on both sides (merchant and client)",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-gift-card-light.svg"
+      }
+    ]
+  },
+
+  "benefits-dynamicQR": {
+    "main": "Benefits of using",
+    "redMain": "Dynamic QR code",
+    "benifits": [
+      {
+        "title": "Instant payments",
+        "description": "One of the biggest advantages of using QR codes is that it facilitates instant payment. Making payment via QR codes is extremely quick as compared to other modes of payment. All a user has to do is simply open the QR code scan app, scan the QR code, and confirm to process the payment. Within a few seconds, the payments are made.",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg"
+      },
+      {
+        "title": "Top-grade security",
+        "description": "Making payments via QR codes is very secure. It’s because the QR code is nothing but just a tool that is used to exchange information. Any data which is transferred via QR codes is encrypted thus making the payment foolproof secure",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-chat-light.svg"
+      },
+      {
+        "title": "Easy to set up",
+        "description": "Setting up QR code payments is extremely easy. You don’t need much infrastructure. You only require a smartphone with a camera and a QR code which is either printed or in the electronic form. The usage of QR codes for payments also eliminates the requirement of point of sale machines or any other special equipment used for payments.",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-fast-checkout-light.svg"
+      },
+      {
+        "title": "Higher reliability",
+        "description": "QR code payments are a foolproof payment method as it eliminates the probability of any kind of error. The pattern of black boxes consists of unique data which enhances the reliability of the QR code payments.",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-gift-card-light.svg"
+      }
+    ]
+  },
+  "dynamicQR-uses": {
+    "main": "Where all you can use",
+    "redMain": "Dynamic QR?",
+    "uses": [
+      {
+        "title": "We built our business on great customer service",
+        "content": "content to be provided "
+      },
+      {
+        "title": " Can be used at stores and retail outlets",
+        "content": "content to be provided "
+      }
+    ]
+  },
+
+  "UPI-payment": {
+    "main": "Payment with",
+    "redMain": "F-Pay",
+    "title": "F-Pay Collect",
+    "features": [
+      {
+        "main": "Enable fast, simple & secure online payments",
+        "description": "Let your customers shop, order & pay hassle-free.Fpay provides secure QR code solutions and wallet payment options for customers"
+      },
+      {
+        "main": "QR Code For Payment Apps",
+        "description": "Accept payments from any customer and payments get settled in your bank account at the end of day."
+      },
+      {
+        "main": "Accept payments in store",
+        "description": "Collect error-free payments faster at the cash counter by displaying QR on your POS terminal"
+      },
+      {
+        "main": "Print and stick static QR codes at your cash counter",
+        "description": "Generate digital invoices  and receive multiple payments simultaniously"
+      }
+    ]
+  }
+}
