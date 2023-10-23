@@ -3,6 +3,7 @@ import "./globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Inter } from "next/font/google";
+import "tailwindcss/tailwind.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
