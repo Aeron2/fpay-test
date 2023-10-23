@@ -46,30 +46,6 @@
     "tab-3": "Accepting payments with Fpay is absolutely FREE"
   },
 
-  "qr-payment": {
-    "main": "Payment at store with",
-    "redMain": "QR code",
-    "tagline": "",
-    "subheading": "Scan QR codes and make transactions easily.",
-    "expand-menu": [
-      {
-        "id": 1,
-        "main": "Static QR for all payments",
-        "description": "Static QR codes are used for facilitating quick and simple payments in various industries like delivery service, in-home services, in-store retails, taxi drivers, and street vendors."
-      },
-      {
-        "id": 2,
-        "main": "Dynamic QR",
-        "description": "France-Pay Dynamic QR offers a solution where the merchant can control the amount to be paid by the client"
-      },
-      {
-        "id": 3,
-        "main": "Using F-Pay ID",
-        "description": "Merchants can request the amount to the clients using client's F-Pay ID"
-      }
-    ]
-  },
-
   "benefits-staticQR": {
     "main": "Benefits of using",
     "redMain": "Static QR code",
@@ -100,7 +76,7 @@
   "benefits-dynamicQR": {
     "main": "Benefits of using",
     "redMain": "Dynamic QR code",
-    "benifits": [
+    "benefits": [
       {
         "title": "Instant payments",
         "description": "One of the biggest advantages of using QR codes is that it facilitates instant payment. Making payment via QR codes is extremely quick as compared to other modes of payment. All a user has to do is simply open the QR code scan app, scan the QR code, and confirm to process the payment. Within a few seconds, the payments are made.",
@@ -138,6 +114,47 @@
     ]
   },
 
+  "qr-payment": {
+    "main": "Payment at store with",
+    "redMain": "QR code",
+    "tagline": "",
+    "subheading": "Scan QR codes and make transactions easily.",
+    "expand-menu": [
+      {
+        "id": 1,
+        "main": "Static QR for all payments",
+        "description": "Static QR codes are used for facilitating quick and simple payments in various industries like delivery service, in-home services, in-store retails, taxi drivers, and street vendors."
+      },
+      {
+        "id": 2,
+        "main": "Dynamic QR",
+        "description": "France-Pay Dynamic QR offers a solution where the merchant can control the amount to be paid by the client"
+      },
+      {
+        "id": 3,
+        "main": "Using F-Pay ID",
+        "description": "Merchants can request the amount to the clients using client's F-Pay ID"
+      }
+    ]
+  },
+  "QRContent": [
+    {
+      "id": 1,
+      "main": "Static QR for all payments",
+      "description": "Static QR codes are used for facilitating quick and simple payments in various industries like delivery service, in-home services, in-store retails, taxi drivers, and street vendors."
+    },
+    {
+      "id": 2,
+      "main": "Dynamic QR",
+      "description": "Paytm Dynamic QR offers a solution where the merchant is in control of the amount paid through QR code."
+    },
+    {
+      "id": 3,
+      "main": "Sound box",
+      "description": "Fpay soundbox confirms the payment within seconds in-Store. The sound of the Fpay soundbox is absolutely amazing, it's clearly audible, clean"
+    }
+  ],
+
   "UPI-payment": {
     "main": "Payment with",
     "redMain": "F-Pay",
@@ -145,19 +162,104 @@
     "features": [
       {
         "main": "Enable fast, simple & secure online payments",
-        "description": "Let your customers shop, order & pay hassle-free.Fpay provides secure QR code solutions and wallet payment options for customers"
+        "description": "Let your customers shop, order & pay hassle-free.Fpay provides secure QR code solutions and wallet payment options for customers",
+        "icon": "/Assets/solutions/ShieldCheck.svg"
       },
+
       {
         "main": "QR Code For Payment Apps",
-        "description": "Accept payments from any customer and payments get settled in your bank account at the end of day."
+        "description": "Accept payments from any customer and payments get settled in your bank account at the end of day.",
+        "icon": "/Assets/solutions/QrCode.svg"
       },
       {
         "main": "Accept payments in store",
+        "icon": "/Assets/solutions/CurrencyEuro.svg",
         "description": "Collect error-free payments faster at the cash counter by displaying QR on your POS terminal"
       },
       {
         "main": "Print and stick static QR codes at your cash counter",
+        "icon": "/Assets/solutions/DocumentText.svg",
         "description": "Generate digital invoices  and receive multiple payments simultaniously"
+      }
+    ]
+  },
+  "better-way": {
+    "main": "A better way to send money",
+    "tagLine": "",
+    "subHeading": "Send money faster and in a more easier way.",
+    "feature-list": [
+      {
+        "name": "Competitive exchange rates",
+        "bankImage": "/images/logo/logo-only.png",
+        "screenshot": "/images/banksUPI.png",
+        "description": "Zero installation costs ! Zero monthly subscription costs ! Zero transaction costs ! (certain limits apply)",
+        "icon": "GlobeAltIcon"
+      },
+      {
+        "name": "No hidden fees",
+        "bankImage": "/images/logo/logo-only.png",
+        "screenshot": "/images/banksUPI.png",
+        "description": "We charge only transaction costs based on your monthly income",
+        "icon": "ScaleIcon",
+        "bankLink": "#"
+      },
+      {
+        "name": "Transfers are instant",
+        "bankImage": "/images/logo/logo-only.png",
+        "screenshot": "/images/banksUPI.png",
+        "description": "Receive your payment in few seconds with secure mode of payment",
+        "icon": "LightningBoltIcon",
+        "bankLink": "#"
+      },
+      {
+        "name": "Mobile notifications",
+        "bankImage": "/images/logo/logo-only.png",
+        "screenshot": "/images/banksUPI.png",
+        "description": "For each and every payment you will receive a notification and a digital receipt",
+        "icon": "AnnotationIcon",
+        "bankLink": "#"
+      }
+    ],
+    "read-more": "Lore sjfbh jsbfkjasd nf kjSDNfkjn SD JKfnKJ SDnfKDSs"
+  },
+  "CustomPayment": {
+    "learn-more": "Learn more",
+    "custom-payments": {
+      "main": "Customisable payment and",
+      "redMain":" biling solutions",
+      "tagLine": "",
+      "subHeading": "FrancePay provides customizable and flexible payment solutions at the best possible rates"
+    },
+    "incentives": [
+      {
+        "name": "Easy Refunds",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
+        "description": ""
+      },
+      {
+        "name": "Quick bank settlements",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
+        "description": ""
+      },
+      {
+        "name": "Large Payment Collections",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
+        "description": ""
+      },
+      {
+        "name": "Dynamic payment links",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
+        "description": ""
+      },
+      {
+        "name": "Track your payment history",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
+        "description": ""
+      },
+      {
+        "name": "Quick transfers",
+        "imageSrc": "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
+        "description": ""
       }
     ]
   }
